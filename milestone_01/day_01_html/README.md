@@ -1,4 +1,3 @@
-  Milestone-                          Topics-                                Key Learnings
-________________________________________________________________________________________________________
-Milestone 1                         HTML, CSS                      Learn HTML and CSS syntax,
-                                                                    create a simple website
+  Milestone- Milestone 1                      
+  Topics- HTML, CSS                            
+  Key Learnings- Learn HTML and CSS syntax, create a simple website 
