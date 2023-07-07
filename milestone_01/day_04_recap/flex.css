@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row-reverse;
+    background: #000;
+    height: 500px;
+}
+.box{
+    padding: 20px;
+    background-color: paleturquoise;
+    width: 110px;
+    height: 110px;
+}
+.box2{
+    background-color: peru;
+}
+.box3{
+    background-color: blueviolet;
+}
+

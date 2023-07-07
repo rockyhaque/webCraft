@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box1{
+    border: 2px solid palevioletred;
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    width: 800px;
+    background: url(./alin-andersen-f0SgAs27BYI-unsplash.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 75% 50%;  */
+    /* width first, height second */
+
+    background-size: contain;
+}
+
+.box2{
+    border: 2px solid rgb(240, 205, 11);
+    margin: 20px;
+    padding: 20px;
+    background: url(./alin-andersen-f0SgAs27BYI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+
+}
+
+.hero_img{
+    background-image: url(./alin-andersen-f0SgAs27BYI-unsplash.jpg);
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.hero_text{
+    text-align: center;
+    color: white;
+    /* padding: 300px 400px; */
+
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    position: absolute; */
+    
+
+}
