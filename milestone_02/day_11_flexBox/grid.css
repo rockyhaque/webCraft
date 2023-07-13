@@ -1,0 +1,9 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 250px 250px 250px 250px 250px; */
+    grid-template-columns: repeat(5, 250px);
+}
+
+.item{
+    border: 1px solid rebeccapurple;
+}
