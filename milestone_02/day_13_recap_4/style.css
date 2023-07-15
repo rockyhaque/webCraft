@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+    height: 500px;
+    border: 2px solid purple;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    /* justify-content: center;
+    align-content: center; */
+    grid-auto-rows: 50px;
+}
+
+.grid-item{
+    color: black;
+}
+
+.one{
+    background-color: pink;
+}
+.two{
+    background-color: yellow
+}
+.three{
+    background-color: palevioletred;
+}
+
+.four{
+    background-color: yellowgreen;
+}
+
+.five{
+    background-color: aqua;
+}
+
+.six{
+    background-color: chocolate;
+}
+
+.seven{
+    background-color: brown;
+}
+
+.eight{
+    background-color: rgb(106, 0, 255);
+}
+
+.nine{
+    background-color: bisque;
+}
