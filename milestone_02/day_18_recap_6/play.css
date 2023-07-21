@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.primary-btn{
+    padding: 20px 40px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+}
+
+.primary-btn:hover{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    box-shadow: 0px 15px 20px rgba(207, 86, 187, 0.4);
+    color: black;
+}
+
+.primary-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* -------play Section starts ------ */
+
+.instant-play-container{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 140px;
+    padding-left: 50px;
+    border: 2px solid purple;
+}
+
+.instant-play-info{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    border: 2px solid rgb(109, 128, 0);
+}
+
+.instant-play-img{
+    margin-left: 100px;
+    border: 2px solid rgb(62, 128, 0);
+}
+
+.horse-rider{
+    position: absolute;
+}
+
+.super-girl{
+    position: fixed;
+    top: 80px;
+    right: 710px;
+    border: 2px solid rgb(128, 11, 0);
+}
+
+

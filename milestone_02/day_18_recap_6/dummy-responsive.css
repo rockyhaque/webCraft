@@ -1,0 +1,229 @@
+@media screen and (max-width: 576px) {
+
+    nav,
+    nav ul
+    {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    nav ul li{
+        margin-top: 35px;
+    }
+    
+    .primary-banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .primary-banner-info{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .primary-banner-info h2{
+        margin-top: 155px;
+    }
+
+    nav,
+    .primary-banner-container,
+    .we-are-gamer,
+    .funny-video-container,
+    .career-container
+    main{
+        margin: auto;
+        padding: 0;
+    }
+
+    .play, 
+    .download,
+    .support{
+        width: 80%;
+        margin: auto;
+    }
+
+    .we-are-gamer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .we-are-gamer h6{
+        margin-top: 80px;
+    }
+    
+    .box-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .funny-video-container h2{
+        margin-top: 100px;
+    
+    }
+
+    .box-container img{
+        width: 100%;
+        height: auto;
+        padding: 35px 10px;
+        margin-top: 30px;
+    }
+
+    .box-container p{
+        margin-top: 0px;
+    }
+
+    /* Career Section  */
+
+    .career-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .left-right-career-info{
+        flex-direction: column;
+    }
+
+     .left-info{
+        text-align: center;
+    }
+
+    .right-info{
+        text-align: center;
+    } 
+
+    .career-img img{
+        width: 80%;
+        margin: auto;
+
+    }
+
+    
+
+    .category-container{
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid #ccc;
+    }
+
+    .highlight-box{
+        gap: 10;
+    }
+
+    .footer-container,
+    .at-a-glance,
+    .terms-condition
+    {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    
+    .we-are-gamer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .we-are-gamer h6{
+        margin-top: 80px;
+    }
+
+    nav,
+    nav ul
+    {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    nav ul li{
+        margin-top: 35px;
+    }
+    
+    .primary-banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .primary-banner-info{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .primary-banner-info h2{
+        margin-top: 155px;
+    }
+
+    nav,
+    .primary-banner-container,
+    .we-are-gamer,
+    .funny-video-container,
+    .career-container
+    main{
+        margin: auto;
+        padding: 0;
+    }
+
+    .left-right-career-info{
+        flex-direction: column;
+    }
+
+     .left-info{
+        text-align: center;
+    }
+
+    .right-info{
+        text-align: center;
+    } 
+
+    .career-img img{
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .category-container{
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        margin: 0;
+
+    }
+
+    
+    .funny-video-container h2{
+        margin-top: 100px;
+    
+    }
+
+    .box-container img{
+        width: 100%;
+        height: auto;
+        padding: 35px 10px;
+        margin-top: 30px;
+    }
+
+    .box-container p{
+        margin-top: 0px;
+    }
+
+    
+    .category-container{
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid #ccc;
+    }
+
+    .highlight-box{
+        gap: 10;
+    }
+   
+}
